@@ -2,7 +2,7 @@ const Title = (props) => {
     return (
       <h1 className="m2">
         <span className="image-container">
-          <a href="http://localhost:3000">
+          <a href="https://wsp2024pokemonfrontend.netlify.app/">
             <img src="/images/ball.png" alt="몬스터 볼" className="image"/>
           </a>
         </span>
