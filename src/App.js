@@ -5,7 +5,7 @@ import PokemonList from './PokemonList';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:8080/api/pokemons';
+const SERVER_URL = 'https://w24wpocketmonlistbackend.onrender.com/api/pokemons';
 
 const App = () => {
     const [pokemons, setPokemons] = useState([]);
